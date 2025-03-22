@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Snake n Ladder</title>
+</head>
+<body>
+    <h2>Snake and Ladder</h2>
+    <div class="out"></div>
+    <div class="mn" id="out"></div>
+    
+    <!-- Player Turn Display -->
+    <div id="turnDisplay" class="turnDisplay">Player 1's Turn</div>
+    
+    <div id="side">
+        <button class="btn" id="Play" onclick="play()">New Game</button>
+        <button class="btn" id="RollDice" onclick="random()" disabled>Roll Dice</button>  
+        <center><button id="dice"></button></center>
+    </div>    
+
+    <!-- New Pawn Display Section on the Right -->
+    <div id="pawnDisplay">
+        <div id="pawn1_side" class="pawnContainer">
+            <img src="pawn.png" class="pawnImg">
+            <span>Player 1</span>
+        </div>
+        <div id="pawn2_side" class="pawnContainer">
+            <img src="pawn2.png" class="pawnImg">
+            <span>Player 2</span>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

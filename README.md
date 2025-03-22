@@ -3,5 +3,5 @@
 
 ![image](https://github.com/user-attachments/assets/0ccc7831-0d46-4d1c-b46f-6d0b3611f2d7)
 
-
+<br>
 <h2 align="center">Github Pages : https://maheshr03.github.io/snake-n-ladder/</h2>

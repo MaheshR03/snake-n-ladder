@@ -1,0 +1,119 @@
+h2 {
+    text-align: center;
+    background-color: brown;
+    padding: 6px;
+    color: cornsilk;
+  }
+  
+  .out {
+    height: 525px;
+    width: 525px;
+    background-image: url("game.jpg");
+    background-size: 525px 525px;
+    background-repeat: no-repeat;
+    float: left;
+  }
+  
+  .mn {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+  }
+  
+  #side {
+    margin-left: 700px;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #turnDisplay {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .boardbox {
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .img {
+    height: 45px;
+    width: 50px;
+    margin: 2px 0px 3px 0px;
+  }
+  
+  #dice {
+    height: 80px;
+    width: 80px;
+    font-size: 100px;
+    color: black;
+    margin-top: 80px;
+    margin-left: -710px;
+    border: none;
+    background-color: white;
+  }
+  
+  @keyframes rollDice {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(90deg); }
+    50% { transform: rotate(180deg); }
+    75% { transform: rotate(270deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .dice-rolling {
+    animation: rollDice 0.40s ease-out;
+  }
+  
+  /* Style for the right-side pawn display */
+  #pawnDisplay {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .pawnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .pawnImg {
+    height: 50px;
+    width: 50px;
+  }

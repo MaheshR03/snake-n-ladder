@@ -1,4 +1,7 @@
+
 # 🐍🎲 Snake-n-Ladder
+
+This project was developed as part of my internship at Go Flamingo.
 
 ## 🚀 Overview
 
@@ -31,4 +34,3 @@ Snake-n-Ladder is a web-based multiplayer game inspired by the classic board gam
 
 ## 📄 License
 This project is licensed under the [MIT License](./LICENSE).
->>>>>>> master
